@@ -3,6 +3,7 @@
 const path = require("path");
 const express = require("express");
 const cmd = require("node-cmd");
+const cors = require("cors")
 // const KeyController = require("robotjs");
 
 const textToSpeech = require("@google-cloud/text-to-speech");
@@ -10,6 +11,7 @@ const fs = require("fs");
 const util = require("util");
 
 require("dotenv").config()
+app.use(cors())
 const app = express()
 let port = process.env.PORT || 8000
 
