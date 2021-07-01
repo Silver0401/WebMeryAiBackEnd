@@ -171,6 +171,9 @@ app.post("/speaking", (req,res) => {
         await writeFile("output.mp3", response.audioContent, "binary");
         // console.log("Audio content written to file: output.mp3");
         cmd.run("afplay output.mp3");
+
+        console.log("playing sound")
+
         }
 
         if (info.text === "Ba Bye") {
