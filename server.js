@@ -181,6 +181,7 @@ app.post("/speaking", (req,res) => {
             process.kill(process.pid, "SIGTERM");
 
         } else {    
+            console.log("testing :u")
             res.send(`text to speak received, buffering...`);
         }
     
