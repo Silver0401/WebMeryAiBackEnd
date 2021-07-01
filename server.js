@@ -11,10 +11,10 @@ const fs = require("fs");
 const util = require("util");
 
 require("dotenv").config()
-app.use(cors())
 const app = express()
 let port = process.env.PORT || 8000
 
+app.use(cors())
 
 let data = {
     action: "waiting for action"
