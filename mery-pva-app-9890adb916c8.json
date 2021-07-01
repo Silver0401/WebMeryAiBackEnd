@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mery-pva-app",
+  "private_key_id": "9890adb916c8ce584223bc5313bfee3339626ef4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCUwv/cbLWPvq89\npRH+nhv5fGpOBc/61D/9zURQLbYdp3gkUBJdrnzOpBLu6rmRoEyTqLpZHxsOP8s6\ni7r4RrN1KICaVlKe/5sxk/TvS7FL+QikEsFuiqfBi/vik44SYtWLx/FeanlvETCL\nS+rSmuRfYkZeQP85o3oxhPHYAPCToHhxkNMWkFGscj8bqji500KJWamJfNRx+nxS\nOgwo6u2WrzuBnD0oSReEsnk1OFkFxZhoSay63aHVxTrl72Jfgmppd3crwnh0OBjP\nh5baa51ZntSnpzNOfSD65loZVfU+sXeh1geUequp6/8BCRglu7/ddJ24wEPHD+hh\nAVTAtRcbAgMBAAECggEAN/wK/pGK4sYIfVKaKxClxoakGyjk1Kj8TC/r/aC2YQKd\nnEzmHIuGPN5SoceEfuGs8AUX3GJwdDRd73KWssko0Halr2+9OElJxqbADy6VUtot\n/lFwqoFUEOr1qJePaCv54dklZTr86Ge3tTSk8w2H1L3PbblYVADKA8jcm0X/RA8V\nX/ly6159JdEHZeRt7DM2IkE/wMu241eDrnEX9MsNH48PDh36nH+FeUky/NXgsq3U\nggxQR2S7iT8eyInPF7rv0YHhSFKgeKDbM0CqP101mJvN3fTHYaKBxeK41OWdMBZy\nxaKMUv9Iv6E9004SBCZ7IizVIE89MMOggiRfsgHCAQKBgQDFSGirdxkJtBnPTrvG\nGAw9LBm57IxmwreBDM63+ZcMypDyywCy5stdI5oGLcbFvyNMv9XHVhHmX7TkyyCm\nHmhmgNeIWqqf/31QJsgf3tC2oNQDE5XSXRjLgdKBT7fYwwTHGG95MuoKGiS0/MO3\nmEDezf2QXyRm9OfRkyLBX8/f4QKBgQDBCZ2Jo2/itFue+eWwfLtJ5S+j3OyHb4Gv\nELmQvXQ+BQmfWWOQ9L5kgvzriONG9cWtZIVPOeWxL4nml0W606OcURD/u7ZaX5/s\nZ7DLGRaoDWQztWu/3psvcDqjUPuBUAr9IvZFav5dpkK1AL446+MDg3d5fhlwYDkD\n5SbhiD1GewKBgFtG3zbGCc2ViIOEGBjVM4RyDQ0axvMckC6jMFmqnxqJ9np/NjmP\n0vOq7y6Aq4D+qGRwNYbe6bU+/sEEwnxZgVA7uH0cBem1GdOlvd4RB1wYGT+7JgyI\nilpOHIk7ywH9aQ583cajqek2o1khwaQGS61KfVD41CzWjxNGEkSKAfHBAoGBAITI\n8XYRV9BxUijsK2SYmFh/b6LfQFD1khZzgcIfoEtdOb5EReobgLAxLntyoSxZuY3J\nfK3/3JFiaxCUdCHMnVnUpcXUQN6vsplyxjke2+fjtk6feCv2m3cpUxyugyLzhWuV\nViRwMeMHkBFkHnWXRYRQNan75NHZTr7wLSushMHrAoGBAK13PC3EDxRWOHXn/PeS\nkSwY6SpZJKVSUtTaYx5dCwFhIKcsVT5p36A+yFzyGZ1TitLNry+2iwUFKn8mDzfe\nYa/g/F4Rd98jKb15HIeJZZ3ZbD1ChBz+E7Z6+djMm1h9cACA1RSaX7nbqycZWFlM\nUs43pe0SFUHKuz1RSZvqekou\n-----END PRIVATE KEY-----\n",
+  "client_email": "mery-app@mery-pva-app.iam.gserviceaccount.com",
+  "client_id": "111684238414551176490",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mery-app%40mery-pva-app.iam.gserviceaccount.com"
+}
