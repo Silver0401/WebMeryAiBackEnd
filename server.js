@@ -3,7 +3,7 @@
 const path = require("path");
 const express = require("express");
 const cmd = require("node-cmd");
-const KeyController = require("robotjs");
+// const KeyController = require("robotjs");
 
 const textToSpeech = require("@google-cloud/text-to-speech");
 const fs = require("fs");
@@ -49,11 +49,6 @@ if (process.env.APP_STATE === "prod") {
     })
 }
 
-// Testing Stuff
-
-// app.get("/transcript", (req,res) => {
-//     res.json(data)
-// }) 
 
 app.post("/pressKey", (req,res) => {
 
@@ -63,42 +58,44 @@ app.post("/pressKey", (req,res) => {
 
     if (material.key !== "none"){
 
-        if (material.key === "Move Mouse") {
+        console.log(material.key)
 
-            res.send("Key obtained, moving mouse...");
+        // if (material.key === "Move Mouse") {
 
-            KeyController.setMouseDelay(2);
-            var twoPI = Math.PI * 2.0;
-            var screenSize = KeyController.getScreenSize();
-            var height = screenSize.height / 2 - 10;
-            var width = screenSize.width;
+        //     res.send("Key obtained, moving mouse...");
 
-            for (var x = 0; x < width; x++) {
-                y = height * Math.sin((twoPI * x) / width) + height;
-                KeyController.moveMouse(x, y);
-            }
+        //     KeyController.setMouseDelay(2);
+        //     var twoPI = Math.PI * 2.0;
+        //     var screenSize = KeyController.getScreenSize();
+        //     var height = screenSize.height / 2 - 10;
+        //     var width = screenSize.width;
 
-        } 
+        //     for (var x = 0; x < width; x++) {
+        //         y = height * Math.sin((twoPI * x) / width) + height;
+        //         KeyController.moveMouse(x, y);
+        //     }
+
+        // } 
         
-        if (material.key === "Press Space") {
+        // if (material.key === "Press Space") {
 
-            res.send("Key obtained, pressing key...");
-            KeyController.keyTap(" ");
-        }
+        //     res.send("Key obtained, pressing key...");
+        //     KeyController.keyTap(" ");
+        // }
         
-        if (material.key === "Press M"){
+        // if (material.key === "Press M"){
 
-            res.send("Key obtained, pressing key...");
-            KeyController.keyTap("m");
+        //     res.send("Key obtained, pressing key...");
+        //     KeyController.keyTap("m");
 
-        }
+        // }
 
-        if (material.key === "Press F"){
+        // if (material.key === "Press F"){
 
-            res.send("Key obtained, pressing key...");
-            KeyController.keyTap("f");
+        //     res.send("Key obtained, pressing key...");
+        //     KeyController.keyTap("f");
 
-        }
+        // }
     }
 })
 
